@@ -1,0 +1,43 @@
+body {
+  background-color: #03011f;
+  font-family: "Source Sans Pro";
+  color: #6cacc5;
+  text-align: center;
+}
+
+canvas {
+  border: 2px solid #6cacc5;
+  visibility: hidden;
+}
+
+.startGame, .gameOver {
+  background-color: inherit;
+  width: 400px;
+  height: 200px;
+  border: 2px solid #6cacc5;
+  padding: 50px;
+  position: absolute;
+  top: 20%;
+  left: 0; right: 0;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.gameOver {
+  visibility: hidden;
+}
+
+button { 
+  border: 2px solid #6cacc5;
+  background: rgba(42,50,113, .28);
+  color: #6cacc5;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: rgba(42,50,113, .5);
+}
