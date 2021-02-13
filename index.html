@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Javascript Ping Pong Game</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Javascript Ping Pong Game</h1>
+  <canvas id="myCanvas" width="600" height="500"></canvas>
+  <div class="startGame">
+    <p>This is a two player ping pong game. Player 1 must use Q to move left and R to move right. Player 2 must use the left and right arrow keys. Enjoy!!</p>
+    <button onclick="startGame();">Start Game</button>
+  </div>
+  <div class="gameOver">
+    <p>Congratulations <span id="winner"></span>! You won! </p>
+    <button onclick="startGame();">Play Again</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
